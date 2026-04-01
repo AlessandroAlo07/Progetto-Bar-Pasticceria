@@ -1,1 +1,43 @@
+/* Reset base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f2;
+}
 
+/* Header */
+header {
+    background-color: #6b3e26;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #a65a3a;
+}
+
+/* Contenuto */
+main {
+    text-align: center;
+    padding: 40px;
+}
