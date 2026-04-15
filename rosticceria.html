@@ -3,57 +3,94 @@
 <head>
     <link rel="stylesheet" href="rosticceria.css">
     <meta charset="UTF-8">
-    <title>Rosticceria</title>
-    <script src="menu.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosticceria - Menu</title>
 </head>
 <body>
 
-<h1>Rosticceria</h1>
+<header>
+    <h1>Rosticceria</h1>
+    <p class="sottotitolo">Sapori autentici e tradizione artigianale</p>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contatti</a></li>
+        </ul>
+    </nav>
+</header>
 
-<h3>Pezzi classici</h3>
-<ul>
-    <li>Arancino al ragù - €3,00</li>
-    <li>Arancino al burro - €3,00</li>
-    <li>Crocchetta di patate - €2,00</li>
-    <li>Mozzarella in carrozza - €3,50</li>
-    <li>Panzerotto pomodoro e mozzarella - €2,50</li>
-</ul>
+<main>
+    <section>
+        <h2>Pezzi classici</h2>
+        
+        <div class="item">
+            <div class="item-info">
+                <p class="item-nome">Arancino al ragù</p>
+                <p class="item-desc">Riso allo zafferano con cuore di ragù di carne e piselli</p>
+            </div>
+            <span class="item-prezzo">€3,00</span>
+        </div>
 
-<h3>Pizze e sfoglie</h3>
-<ul>
-    <li>Pizza margherita al taglio - €2,50</li>
-    <li>Pizza con prosciutto - €3,00</li>
-    <li>Pizza wurstel e patatine - €3,50</li>
-    <li>Sfoglia al pomodoro - €2,50</li>
-    <li>Sfoglia spinaci e ricotta - €3,00</li>
-</ul>
+        <div class="item">
+            <div class="item-info">
+                <p class="item-nome">Arancino al burro</p>
+                <p class="item-desc">Riso con besciamella, prosciutto cotto e mozzarella</p>
+            </div>
+            <span class="item-prezzo">€3,00</span>
+        </div>
 
-<h3>Rustici ripieni</h3>
-<ul>
-    <li>Calzone prosciutto e mozzarella - €3,50</li>
-    <li>Rollò con wurstel - €2,50</li>
-    <li>Rustico salame e formaggio - €3,00</li>
-    <li>Rustico speck e scamorza - €3,50</li>
-    <li>Fagottino ai funghi - €3,00</li>
-</ul>
+        <div class="item">
+            <div class="item-info">
+                <p class="item-nome">Crocchetta di patate</p>
+            </div>
+            <span class="item-prezzo">€2,00</span>
+        </div>
+    </section>
 
-<h3>Focacce e panini</h3>
-<ul>
-    <li>Focaccia classica - €2,50</li>
-    <li>Focaccia con olive - €3,00</li>
-    <li>Panino cotto e formaggio - €4,00</li>
-    <li>Panino salame e provola - €4,50</li>
-    <li>Tramezzino tonno e maionese - €3,50</li>
-</ul>
+    <section>
+        <h2>Pizze e sfoglie</h2>
+        
+        <div class="item">
+            <div class="item-info">
+                <p class="item-nome">Pizza margherita al taglio</p>
+                <p class="item-desc">Pomodoro, mozzarella e basilico fresco</p>
+            </div>
+            <span class="item-prezzo">€2,50</span>
+        </div>
 
-<h3>Specialità</h3>
-<ul>
-    <li>Mini pizzette assortite - €1,50 cad.</li>
-    <li>Cipollina - €2,50</li>
-    <li>Cartocciata - €3,50</li>
-    <li>Hot dog rustico - €3,50</li>
-    <li>Toast farcito - €3,00</li>
-</ul>
+        <div class="item">
+            <div class="item-info">
+                <p class="item-nome">Pizza con prosciutto</p>
+            </div>
+            <span class="item-prezzo">€3,00</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Specialità</h2>
+        
+        <div class="item">
+            <div class="item-info">
+                <p class="item-nome">Cipollina</p>
+                <p class="item-desc">Sfoglia croccante con cipolla stufata e formaggio</p>
+            </div>
+            <span class="item-prezzo">€2,50</span>
+        </div>
+
+        <div class="item">
+            <div class="item-info">
+                <p class="item-nome">Cartocciata</p>
+                <p class="item-desc">Impasto morbido ripieno di pomodoro e mozzarella</p>
+            </div>
+            <span class="item-prezzo">€3,50</span>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Rosticceria Italiana | Aperto tutti i giorni dalle 09:00 alle 22:00</p>
+</footer>
 
 </body>
 </html>
