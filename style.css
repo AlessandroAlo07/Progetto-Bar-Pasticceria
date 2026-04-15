@@ -50,3 +50,74 @@ header h1 {
     background-color: #a65a3a;
 }
 
+/* Stile per la sezione Hero (Benvenuto) */
+.hero {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.hero h2 {
+    color: #6b3e26;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Sezione Card (Caffetteria, Pasticceria, Rosticceria) */
+.presentazione {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: white;
+    border-top: 5px solid #6b3e26;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Effetto movimento al passaggio del mouse */
+}
+
+.card h3 {
+    color: #a65a3a;
+    margin-top: 0;
+}
+
+/* Sezione Orari */
+.orari {
+    background-color: #6b3e26;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.orari h3 {
+    margin-top: 0;
+    color: #e0c9b8;
+}
+
+/* Footer (se non lo hai già nel CSS globale) */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 14px;
+    color: #7a5c47;
+}
