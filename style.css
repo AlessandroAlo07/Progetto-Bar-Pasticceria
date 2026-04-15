@@ -8,7 +8,7 @@ body {
 }
 
 /* Header */
-header {
+.header-menu {
     background-color: #6b3e26;
     color: white;
     padding: 20px;
@@ -22,7 +22,7 @@ header {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-header h1 {
+.header-menu h1 {
     margin: 0;
     font-size: 24px;
 }
