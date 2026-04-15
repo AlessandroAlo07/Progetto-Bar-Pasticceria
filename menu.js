@@ -6,7 +6,7 @@ const headerHTML = `
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="dolci.html">Dolci</a></li>
-                <li><a href="bevande.html">Bevande</a></li>
+                <li><a href="Bevande.html">Bevande</a></li>
                 <li><a href="rosticceria.html">Rosticceria</a></li>
             </ul>
         </nav>
