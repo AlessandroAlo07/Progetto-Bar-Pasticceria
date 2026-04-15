@@ -3,6 +3,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f8f5f2;
+
+    padding-top: 140px;
 }
 
 /* Header */
@@ -11,13 +13,25 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    
+    position: fixed;   
+    top: 0;        
+    left: 0;       
+    width: 100%;      
+    z-index: 1000;     
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
 }
 
 /* Menu */
 .menu {
     list-style: none;
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0; 
     display: flex;
     justify-content: center;
     gap: 30px;
